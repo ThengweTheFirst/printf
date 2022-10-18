@@ -1,10 +1,8 @@
 #include "main.h"
-
 /**
  * print_char - prints character
  * @ap: argument pointer
  * @params: the parameters struct
- *
  * Return: number chars printed
  */
 int print_char(va_list ap, params_t *params)
@@ -20,7 +18,6 @@ int print_char(va_list ap, params_t *params)
 		sum += _putchar(ch);
 	return (sum);
 }
-
 /**
  * print_int - prints integer
  * @ap: argument pointer
@@ -40,7 +37,6 @@ int print_int(va_list ap, params_t *params)
 		l = (int)va_arg(ap, int);
 	return (print_number(convert(l, 10, 0, params), params));
 }
-
 /**
  * print_string - prints string
  * @ap: argument pointer
@@ -96,7 +92,6 @@ int print_percent(va_list ap, params_t *params)
 	(void)params;
 	return (_putchar('%'));
 }
-
 /**
  * print_S - custom format specifier
  * @ap: argument pointer
