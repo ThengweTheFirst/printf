@@ -1,3 +1,4 @@
+Authors: Mzwandile Sithebe and Mondliwethu Vundla
 Group project "printf"
 Repository: printf
 Things to note: There should be one project repository per group. The other members do not fork or 
