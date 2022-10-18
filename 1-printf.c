@@ -1,13 +1,10 @@
 #include "main.h"
-
 /**
- * _printf - prints and input into the standard output
+ * _printf - prints and input into the stdo
  * @format: the format string
  * Return: number of bytes printed
  */
-
 int _printf(const char *format, ...)
-
 {
 	int sum = 0;
 	va_list ap;
